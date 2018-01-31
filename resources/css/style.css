@@ -1,5 +1,5 @@
 html {
-  font-family: Helvetica;
+  font-family: 'ABeeZee', Helvetica;
   font-size: 18px;
 }
 body {
@@ -37,9 +37,9 @@ body {
 }
 .logo1 img {
   display: flex;
-  height: 1.5rem;
+  height: 2.75rem;
   width: auto;
-  margin-left: 2rem;
+  margin-left: 3rem;
   margin-right: 1rem;
 }
 .logo2 {
@@ -102,25 +102,15 @@ nav a {
 .pic {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 5rem;
-  height: 4.5rem;
-}
-.pic1 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 3.5rem;
-  height: 4.5rem;
-}
-.pic1 img {
-  display: flex;
-  width: 90%;
-  height: 90%;
+  height: 5rem;
 }
 .pic img {
   display: flex;
-  width: 90%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   height:auto;
 }
 .underpic {
@@ -128,6 +118,7 @@ nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 0.25rem;
 }
 .underpic p {
   display: flex;
@@ -166,7 +157,6 @@ strong {
 .small {
   display: flex;
   flex-direction: column;
-  font-family: Helvetica;
 }
 .small p{
   line-height: 1.5;
@@ -192,7 +182,7 @@ footer {
   display: flex;
   padding-left: 4rem;
   padding-right: 1rem;
-  height: 1.5rem;
+  height: 2.75em;
 }
 .textlast {
   display: flex;
@@ -429,7 +419,7 @@ footer {
    display: flex;
    padding-left: 0rem;
    padding-right: 0rem;
-   height: 1.5rem;
+   height: 2.75rem;
 }
 .navhide {
   display: block;
